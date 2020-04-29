@@ -1,0 +1,25 @@
+{
+   "stores": [
+                    {
+                    "prodId": 1,
+                    "price": "$1.25"
+                    },
+                     {
+                    "prodId": 2,
+                    "price": "$7.5"
+                    },
+                     {
+                    "prodId": 3,
+                    "price": "$4"
+                    },
+                     {
+                    "prodId": 4,
+                    "price": "$2.75"
+                    },
+                     {
+                    "prodId": 5,
+                    "price": "$1.40"
+                    }
+        
+    ]
+}

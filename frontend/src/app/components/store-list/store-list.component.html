@@ -1,0 +1,24 @@
+<app-header></app-header>
+<div class="container">
+  <div class="row">
+<form (ngSubmit)="onSubmit()" #storeForm="ngForm">
+    <h2 class="text-center">Store List</h2>
+<table class="table table-bordered">
+    <thead><tr>
+        <th>Produc Id</th>
+        <th>Produc Price</th>
+        </tr></thead>
+    <tbody>
+        <tr *ngFor="let store of storeList">
+            <td>{{ store.prodId }}</td>
+            <td><input type="text" class="form-control" id="price_{{store.prodId}}" [(ngModel)]="store.price" name="price_{{store.prodId}}"></td>
+        </tr>
+    </tbody>
+
+</table>
+<p-button label="Save" class="float-right"></p-button>
+</form>
+  </div>
+</div>
+
+
