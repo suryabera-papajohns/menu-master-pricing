@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  baseUrl: "http://localhost:4200/assets/"
+  baseUrl: "http://localhost:8080/assets/"
+    //baseUrl: "http://localhost:8080/fetchStores/"
 };
 
 /*
